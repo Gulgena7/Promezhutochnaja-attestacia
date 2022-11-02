@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- добавлять везде, говорит о том, как масштабировать сайт -->
+    <title>Гульгена Юсупова--Сайт группы</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script defer src="../js/login-popup.js"></script>
+</head>
+<body class="page">
+	<header class="header"> 
+        <img class="site-logo" src="../Logo/logo.svg" alt="Логотип">
+		<ul class="site-menu">
+            <li><a class="menu-link" href="../index.html">Главная</a></li>
+            <li><a class="menu-link active-link" href="#">Студенты</a></li>
+            <li><a class="menu-link" href="about.html">О курсе</a></li>
+            <li><a class="menu-link" href="contacts.html">Контакты</a></li>
+        </ul>
+        <a class="login-button" href="login.html">Войти</a>
+        <div class="login-popup">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form" action="#" method="GET">
+            <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+            <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+            <button class="popup-button" type="submit">Войти
+            </button>
+        </form>
+        </div>
+    </header>
+	<main class="main">
+		<h1 class="main-heading"> Здравствуйте! Меня зовут Гульгена </h1>
+		<img class="class-photo2" src="../img/my-photo.jpg" alt="Мое фото" width="355" height="450">
+	<h2>Я студентка Университета Иннополис </h2>
+	<p class="intro-text" ><strong>Курс: Мой первый сайт. Основа веб-верстки. </strong> <br> 1 поток/Наставник: Ольга Ветер </p>
+	<h2>Программа курса</h2>
+	<ul>
+		<li>Модуль 1. Базовая часть курса</li>
+		<li class="my-list">
+		<ol>
+			<li>Основы HTML и CSS</li>
+			<li>Верстка учебного макета</li>
+			<li>Промежуточная аттестация</li>
+		</ol>
+	    </li>
+		<li>Модуль 2. Продвинутая часть курса</li>
+		<li class="my-list">
+		<ol>
+			<li>Основы верстки макета, погружение в CSS и инструменты разработки</li>
+			<li>Завершение верстки учебного макета и дополнительные темы</li>
+			<li>Промежуточная аттестация</li>
+		</ol>
+		</li>
+		<li>Итоговая аттестация</li>
+	</ul>
+	<h2><a href="https://drive.google.com/file/d/1W-zKpyN5ZDcJcTl7XhD0AfPRchjGca25/view?usp=sharing">Расписание занятий</a></h2>
+	<h2>Наши учебные группы в телеграмме</h2>
+	<!-- Дальше у нас таблицы -->
+	<table class="table">
+		<tr>
+			<th>Номер</th>
+			<th>Название</th>
+			<th>Возможность комментировать</th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<td>Учебный чат</td>
+			<td rowspan="2">Есть</td>
+		</tr>
+		<tr>
+			<th>2</th>
+			<td>Чат с наставником</td>
+		</tr>
+		<tr>
+			<th>3</th>
+			<td>Админ канала Мой первый сайт</td>
+			<td>Нет</td>
+		</tr>
+	</table>
+</main>
+<footer class="footer">
+	<p class="copywrite">2022 &copy; <a class="link-innopolis" href="https://innopolis.com/">Иннополис</a></p>
+</footer>
+</body>
+</html>
